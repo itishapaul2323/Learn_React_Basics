@@ -53,4 +53,14 @@ const addValue = () => {
 }
 
   }
+
+  we use Router to use Link and Nav Link, we do not use <a> because it refreshes the whole page which is not the primary reason to use react 
+
+
+  Router Outlet, what it does it keeps the header and footer same, so if i pass content above and below, that remains the same, and it uses that 
+  as the base and content inside outlet will change 
+
+
+  Router : loader 
+  what loader does is , it you want to fetch data from API calls, you can make directly from here itself
  */
